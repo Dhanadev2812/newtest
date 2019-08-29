@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Digicampushybrid.excelinputs import excel
 import time
-from Digicampushybrid.DigicampusLocators.Dlocator import Dlocator
-from Digicampushybrid.excelinputs.excel import path
-from Digicampushybrid.excelinputs.excel import rowCount
+from DigicampusLocators.Dlocator import Dlocator
+from excelinputs.excel import path
+from excelinputs.excel import rowCount
 
 
 class staff():
