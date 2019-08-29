@@ -1,0 +1,24 @@
+from selenium.webdriver.common.by import By
+from Digicampushybrid.DigicampusLocators.Dlocator import Dlocator
+
+class loginpage():
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.username_textbox_name = Dlocator.username_textbox_name
+        self.password_textbox_name = Dlocator.password_textbox_name
+        self.submit_button_css_selector = Dlocator.submit_button_css_selector
+
+    def enter_username(self, username):
+        username = self.driver.find_element(By.NAME,Dlocator.username_textbox_name)
+        username.click()
+        username.send_keys("admin@admin.com")
+
+    def enter_password(self, password):
+        password =  self.driver.find_element(By.NAME,Dlocator.password_textbox_name)
+        password.click()
+        password.send_keys("1zz2xx3cc")
+
+    def click_submit(self):
+        self.driver.find_element(By.CSS_SELECTOR,Dlocator.submit_button_css_selector).click()
+
