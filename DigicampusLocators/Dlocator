@@ -1,0 +1,19 @@
+class Dlocator():
+    #login page objects
+    username_textbox_name = "username"
+    password_textbox_name = "password"
+    submit_button_css_selector = "[type='submit'][class='btn']"
+
+    #Redirect to Add staff
+    HR_sidemenu_linktext ="HR"
+    Staffdirectory_sidemenu_linktext = "Staff Directory"
+    Addstaff_button_css_selector = "a[href='http://localhost/projects/school_new/admin/staff/create'][class='btn btn-primary btn-sm']"
+
+    #Add staff-inputs
+    employee_id_textbox_id = "employee_id"
+    role_dropdown_name = "role"
+    name_textbox_id="name"
+    email_textbox_name="email"
+    gender_dropdown_name="gender"
+    dob_datepicker_name="dob"
+    submit_button_css_selector="button[type='submit']"
