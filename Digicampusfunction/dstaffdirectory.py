@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Digicampushybrid.excelinputs import excel
+from excelinputs import excel
 import time
 from DigicampusLocators.Dlocator import Dlocator
 from excelinputs.excel import path
