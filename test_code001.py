@@ -3,8 +3,8 @@ from nose.tools import assert_equal
 from selenium import webdriver
 import unittest
 import HtmlTestRunner
-from Digicampushybrid.Digicampusfunction.dlogin import loginpage
-from Digicampushybrid.Digicampusfunction.dstaffdirectory import staff
+from Digicampusfunction.dlogin import loginpage
+from Digicampusfunction.dstaffdirectory import staff
 
 class LoginTest(unittest.TestCase):
 
